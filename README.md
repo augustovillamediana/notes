@@ -1,4 +1,5 @@
 # notes
-Notas personales de cursos
+Notas que tomo de algunos topicos relevantes
 
-Python the Hard way - Inicio Abril 2024
+[Software Recomendado](Software_recomendado.md)
+
