@@ -15,6 +15,7 @@
 
 - [VSCodium](https://vscodium.com/)
   - Version Libre de VSCode
+- [Neovim](https://neovim.io/)
 
 ## Comunicacion
 
