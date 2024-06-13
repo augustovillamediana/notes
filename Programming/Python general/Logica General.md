@@ -42,12 +42,10 @@ cuadrados = [x**2 for x in range(10)]
 ## Preguntas de Programación Orientada a Objetos
 
 ### **Herencia y polimorfismo.**
-
 - **Herencia**: Permite a una clase derivar de otra, heredando atributos y métodos.
 - **Polimorfismo**: Permite a las subclases redefinir métodos de la superclase.
 
 ### **¿Qué son los métodos `__init__` y `__str__`?**
-
 - **`__init__`**: Inicializa un objeto al crearlo.
 - **`__str__`**: Devuelve una representación legible del objeto.
 
@@ -73,10 +71,10 @@ cuadrados = [x**2 for x in range(10)]
   funcion_original()
 
   ```
-- ### **¿Qué es un singleton?**
+### **¿Qué es un singleton?**
 - Un singleton restringe la creación de instancias a un solo objeto.
 
-  ```python
+```python
   class Singleton:
       _instancia = None  # Variable de clase para almacenar la instancia única
 
@@ -96,7 +94,83 @@ cuadrados = [x**2 for x in range(10)]
   print(planeta1)
   print(planeta2)
 
-  ```
+```
+
+### ¿Qué es la Inyección de Dependencias?
+
+- La Inyección de Dependencias (Dependency Injection) es un patrón de diseño en el que una clase recibe sus dependencias desde el exterior en lugar de crearlas internamente. Esto mejora la modularidad, facilita las pruebas y el mantenimiento del código.
+
+```python
+class Servicio:
+    def tarea(self):
+        print("Tarea realizada")
+
+class Cliente:
+    def __init__(self, servicio):
+        self.servicio = servicio
+
+    def ejecutar(self):
+        self.servicio.tarea()
+
+# Inyección de dependencias
+servicio = Servicio()
+cliente = Cliente(servicio)
+cliente.ejecutar()
+```
+
+### ¿Qué son los generadores en Python y cómo se usan?
+Son iteradores que permiten generar valores sobre la marcha usando `yield`.
+Ejemplo:
+```python
+def gen():
+    yield 1
+    yield 2
+```
+
+### Explica el uso de la palabra clave yield.
+
+`yield` devuelve un valor y mantiene el estado de la función.
+Ejemplo:
+```python
+def contador():
+    n = 0
+    while True:
+        yield n
+        n += 1
+```
+
+### ¿Qué es una expresión lambda en Python?
+
+Es una función anónima, se define al momento del uso y puede tener cualquier cantidad de variables de entrada pero solo una expresion de salida.
+Ejemplo:
+
+```python
+
+suma = lambda a, b: a + b
+```
+### ¿Cómo manejarías archivos en Python?
+
+Usa open() con contexto with para leer/escribir archivos.
+Ejemplo:
+```python
+with open('archivo.txt', 'r') as f:
+    contenido = f.read()
+```
+
+### ¿Qué son las collections en Python y qué tipos ofrece?
+
+`collections` es un módulo que ofrece tipos de datos especializados como `namedtuple`, `deque`, `Counter`, `OrderedDict`, `defaultdict`, y `ChainMap`.
+Ejemplo:
+
+```python
+from collections import defaultdict
+dd = defaultdict(int)
+```
+
+
+
+
+
 
 ## Preguntas de data science
 
