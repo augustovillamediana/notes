@@ -1,5 +1,69 @@
 # Logica general de Python
 
+Preguntas de Fundamentos de Python:
+
+- ¿Qué son listas y tuplas? ¿Cuáles son las diferencias entre ellas?
+- ¿Cómo se manejan las excepciones en Python?
+- ¿Qué es un diccionario en Python y cómo se usa?
+- Explica la diferencia entre deepcopy y shallowcopy.
+- ¿Qué son las listas por comprensión (list comprehensions) y cómo se utilizan?
+
+Preguntas de Programación Orientada a Objetos:
+
+- ¿Qué es una clase y un objeto en Python?
+- Explica los conceptos de herencia y polimorfismo con ejemplos.
+- ¿Qué son los métodos __init__ y __str__?
+- ¿Qué es un decorador y cómo se usa en Python?
+- ¿Cómo implementarías una clase singleton en Python?
+
+Preguntas sobre Estructuras de Datos y Algoritmos:
+
+- ¿Cómo se implementa una pila (stack) en Python?
+- Explica cómo ordenarías una lista de números en Python.
+- ¿Qué es una búsqueda binaria y cómo se implementa en Python?
+- ¿Cómo eliminar duplicados de una lista?
+- Explica cómo encontrar el k-ésimo elemento más grande de una lista.
+
+Preguntas sobre Funcionalidades Avanzadas:
+
+- ¿Qué son los generadores en Python y cómo se usan?
+- Explica el uso de la palabra clave yield.
+- ¿Qué es una expresión lambda en Python?
+- ¿Cómo manejarías archivos en Python?
+- ¿Qué son las collections en Python y qué tipos ofrece?
+
+Preguntas de Concurrencia y Multithreading:
+
+- ¿Cuál es la diferencia entre threading y multiprocessing en Python?
+- Explica el uso del GIL (Global Interpreter Lock) en Python.
+- ¿Qué es una queue y cómo se usa en el contexto de threading?
+- ¿Cómo se implementan tareas asíncronas en Python?
+
+Preguntas sobre Testing y Debugging:
+
+- ¿Qué es unittest en Python?
+- ¿Cómo se escriben tests unitarios en Python?
+- Explica cómo usar pdb para depurar código en Python.
+- ¿Qué es pytest y cómo se diferencia de unittest?
+
+Preguntas sobre Bibliotecas y Herramientas Comunes:
+
+- ¿Qué es NumPy y para qué se usa?
+- ¿Cómo se usa Pandas para manipulación de datos?
+- Explica el uso básico de Django o Flask para desarrollo web.
+- ¿Cómo se gestionan dependencias con pip y virtualenv?
+
+Preguntas de Diseño y Buenas Prácticas:
+
+- ¿Cómo gestionarías el manejo de dependencias en un proyecto grande?
+- Explica el principio DRY (Don't Repeat Yourself).
+- ¿Qué es PEP 8 y por qué es importante?
+- ¿Cómo documentarías tu código en Python?
+
+
+
+
+
 ## Preguntas de Fundamentos de Python:
 
 ### **¿Qué son listas y tuplas? ¿Cuáles son las diferencias entre ellas?**
@@ -188,7 +252,20 @@ Django y Flask son frameworks de desarrollo web en Python:
 - virtualenv: Permite crear entornos virtuales independientes de Python, donde puedes instalar paquetes específicos y mantener diferentes versiones de Python y sus dependencias sin interferir con el sistema base.
 
 
+### ¿Cómo gestionarías el manejo de dependencias en un proyecto grande?
 
+- Utilizaría virtualenv para crear entornos virtuales independientes y requirements.txt para especificar las versiones exactas de las bibliotecas requeridas. Esto asegura que todos los desarrolladores trabajen con las mismas versiones de las dependencias.
+### Explica el principio DRY (Don't Repeat Yourself).
+
+- DRY significa "No te repitas". Se refiere a la práctica de escribir código de manera que cada parte del conocimiento o lógica esté representada por una sola y clara representación autoritativa en el sistema. Evita la duplicación de código, promueve la reutilización y facilita el mantenimiento del código.
+
+### ¿Qué es PEP 8 y por qué es importante?
+
+- PEP 8 es una guía de estilo para escribir código Python. Es importante porque promueve la legibilidad y consistencia del código, lo que facilita la colaboración entre desarrolladores y la mantenibilidad del código a lo largo del tiempo.
+
+### ¿Cómo documentarías tu código en Python?
+
+- Para documentar un programa grande, utilizaría herramientas como documentación incorporada (docstrings), y para proyectos extensos, consideraría el uso de sistemas de documentación como Sphinx. Esto permite mantener una documentación estructurada y accesible que describe el propósito, la estructura y el funcionamiento del código.
 
 
 
