@@ -167,6 +167,26 @@ from collections import defaultdict
 dd = defaultdict(int)
 ```
 
+### ¿Qué es NumPy y para qué se usa?
+
+NumPy es una biblioteca utilizada para realizar operaciones numéricas eficientes en Python. Su principal estructura de datos es el array, que permite almacenar y manipular datos numéricos de manera rápida y precisa.
+
+### ¿Cómo se usa Pandas para manipulación de datos?
+
+Pandas se utiliza principalmente con el tipo de dato DataFrame, que son estructuras de datos tabulares flexibles con etiquetas en filas y columnas. Permite la manipulación, limpieza, agregación y análisis de datos. También facilita la importación y exportación de datos desde y hacia varios formatos como CSV, Excel y bases de datos SQL.
+
+### Explica el uso básico de Django o Flask para desarrollo web.
+
+Django y Flask son frameworks de desarrollo web en Python:
+
+- Django: Viene con muchas funcionalidades integradas y una estructura organizada que facilita el desarrollo de aplicaciones web complejas desde el principio.
+- Flask: Es minimalista y flexible, ideal para proyectos más pequeños y permite agregar funcionalidades según sea necesario.
+
+### ¿Cómo se gestionan dependencias con pip y virtualenv?
+
+- pip: Es el gestor de paquetes de Python que permite instalar, actualizar y desinstalar paquetes de Python. También gestiona las dependencias entre ellos para asegurar la compatibilidad.
+- virtualenv: Permite crear entornos virtuales independientes de Python, donde puedes instalar paquetes específicos y mantener diferentes versiones de Python y sus dependencias sin interferir con el sistema base.
+
 
 
 
