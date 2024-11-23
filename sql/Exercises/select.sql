@@ -62,3 +62,19 @@ select tweet_id
 from Tweets
 where CHAR_LENGTH(content) > 15
 ;
+
+-- 1378. Replace Employee ID With The Unique Identifier
+select 
+    EmployeeUNI.unique_id,
+    Employees.name
+from Employees
+left join EmployeeUNI on Employees.id=EmployeeUNI.id;
+
+-- 1068. Product Sales Analysis I
+
+select 
+    Product.product_name,
+    Sales.year,
+    Sales.price
+from Sales
+join Product on Product.product_id = Sales.product_id;
